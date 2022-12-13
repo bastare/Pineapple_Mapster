@@ -139,8 +139,8 @@ public sealed class MapsterTest
 			source: new BaseStuff { Id = NewBaseStuffId , BaseStuffName = NewBaseStuffName } ,
 			destination: coolStuff );
 
-		Assert.True ( baseStuff is { Id: NewCoolStuffId, BaseStuffName: NewBaseStuffName } );
-		Assert.True ( coolStuff is { Id: NewBaseStuffId, CoolStuffName: NewCoolStuffName } );
+		Assert.True ( baseStuff is { Id: NewCoolStuffId, BaseStuffName: NewCoolStuffName } );
+		Assert.True ( coolStuff is { Id: NewBaseStuffId, CoolStuffName: NewBaseStuffName } );
 	}
 
 	[Fact]
@@ -201,7 +201,7 @@ public sealed class MapsterTest
 			personDto.FullName == string.Join ( " " , employer.FirstName , employer.LastName );
 
 		var hasProperlyMappedStuffs =
-			personDto.Stuffs.All ( stuffDto => string.IsNullOrEmpty ( stuffDto.StuffName ) );
+			personDto.Stuffs.All ( stuffDto => !string.IsNullOrEmpty ( stuffDto.StuffName ) );
 
 		Assert.True ( hasProperlyMappedName );
 		Assert.True ( hasProperlyMappedStuffs );
