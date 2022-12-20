@@ -1,4 +1,4 @@
-namespace MapsterUseCases.Core.FluentMapping;
+namespace MapsterSamples.Core.FluentMapping;
 
 using Interfaces;
 using System.Data;

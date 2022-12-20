@@ -1,4 +1,4 @@
-namespace MapsterUseCases.Core.Interfaces;
+namespace MapsterSamples.Core.Interfaces;
 
 public abstract class Stuff : IHasId
 {

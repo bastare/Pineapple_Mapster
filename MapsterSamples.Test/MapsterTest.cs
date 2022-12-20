@@ -1,9 +1,9 @@
-namespace MapsterUseCases;
+namespace MapsterSamples;
 
 using Core.AttributeBaseMapping;
 using Core.Interfaces;
 using Mapster;
-using MapsterUseCases.Core.FluentMapping;
+using MapsterSamples.Core.FluentMapping;
 using System.Data;
 using Xunit;
 

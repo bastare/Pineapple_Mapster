@@ -1,4 +1,4 @@
-﻿namespace MapsterUseCases.Core;
+﻿namespace MapsterSamples.Core;
 
 using Interfaces;
 using Mapster;

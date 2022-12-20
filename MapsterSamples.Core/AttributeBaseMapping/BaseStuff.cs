@@ -1,4 +1,4 @@
-namespace MapsterUseCases.Core.AttributeBaseMapping;
+namespace MapsterSamples.Core.AttributeBaseMapping;
 
 using Interfaces;
 

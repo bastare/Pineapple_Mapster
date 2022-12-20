@@ -25,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\MapsterUseCases.Core\MapsterUseCases.Core.csproj" />
+        <ProjectReference Include="..\MapsterSamples.Core\MapsterSamples.Core.csproj" />
     </ItemGroup>
 
 </Project>
